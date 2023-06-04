@@ -27,25 +27,18 @@ namespace ariel
         }
     }
 
-    // MagicalContainer::MagicalContainer(/* args */)
-    // {
-    // }
-
-    // MagicalContainer::~MagicalContainer()
-    // {
-    // }
     void MagicalContainer::addElement(int element)
     {
-        _originalElements.push_back(element);
+        // _originalElements.push_back(element);
 
-        if (isPrime(element))
-        {
-            _primeElements.push_back(element);
-        }
-        else
-        {
-            _sortedElements.insert(element);
-        }
+        // if (isPrime(element))
+        // {
+        //     _primeElements.push_back(element);
+        // }
+        // else
+        // {
+        //     _sortedElements.insert(element);
+        // }
     }
 
     void MagicalContainer::removeElement(int element)
